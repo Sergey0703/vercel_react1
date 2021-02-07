@@ -6,11 +6,12 @@
     "name": "Esau Silva (@_esausilva)",
     "url": "https://esausilva.com"
   },
+  
   "scripts": {
     "start": "run-p start:**",
     "start:app": "cd client && react-scripts start",
     "start:server": "cd api && yarn start",
-    "build": "cd client && react-scripts build",
+    "build": "cd client && react-scripts build --output client/public",
     "test": "cd client && react-scripts test",
     "eject": "cd client && react-scripts eject",
     "now-build": "cd client && react-scripts build && mv build dist"
