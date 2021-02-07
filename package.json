@@ -12,8 +12,8 @@
     "start:server": "cd api && yarn start",
     "build": "cd client && react-scripts build",
     "test": "cd client && react-scripts test",
-    "eject": "react-scripts eject",
-    "now-build": "cd client && react-scripts build && mv build dist"
+    "eject": "react-scripts eject"
+   /* "now-build": "cd client && react-scripts build && mv build dist"*/
   },
   "dependencies": {
     "react": "^16.13.1",
