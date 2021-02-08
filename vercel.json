@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "public": false,
+  "public": true,
   "builds": [
     { "src": "package.json", "use": "@now/static-build" },
     { "src": "/api/server.js", "use": "@now/node-server" }
