@@ -13,8 +13,8 @@
     "build": "cd client && react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "now-build": "cd client && react-scripts build ",
-    "postbuild": "mv build dist ../api/"
+    "now-build": "cd client && react-scripts build && mv build dist ../api/"
+    
   },
   "dependencies": {
     "react": "^16.13.1",
