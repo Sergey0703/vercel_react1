@@ -7,7 +7,7 @@
     "url": "https://esausilva.com"
   },
   "scripts": {
-    "start": "run-p start:**",
+    "start": "cd .. && run-p start:**",
     "start:app": "react-scripts start",
     "start:server": "cd ../api && yarn start",
      "build": " react-scripts build ",
